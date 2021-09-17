@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+body {
+background: #F2F2F2;
+max-width: 900px;
+margin: 10px auto;
+padding: 30px;
+}
+ 
+h1{
+color: #4C4C4C;
+padding-bottom: 20px;
+margin-bottom: 20px;
+border-bottom: 2px solid #BEBEBE;
+}
+p{
+font:italic;
+}
+</style>
+<title>Домашнее Задание</title>
+</head>
+<body>
+<h1>Домашнее задание</h1>
+	<body>
+	<h1>Список:</h1>
+	<ol>
+		<li><a href="example.html" target="_blank">Главная сайта</a></li> 
+		<li><a href="https://example.com/" target="_blank">Гиперссылка</a></li>
+		<li>Ссылка на файл на сервере FTP<a href="ftp://example.com/myfile.zip"> без авторизации</a></li>
+		<li>Ссылка на файл на сервере FTP<a href="ftp://user:password@example.com/myfile.zip">С авторизацией</a></li>
+		<li><a href="https://auto.drom.ru/region23/?utm_source=yandexdirect&utm_medium=cpc&utm_campaign=yd-drom-app_00_reg_auto-brand-spr2020_dsk_search_hm&utm_content=desktop_search_text_main&utm_term={keyword}" target="_blank">Ссылка1</a></li>
+		<li><a href="#Форма">Ссылка2</a></li>
+		<li><a href="http://www.onlinestor.com/?product=snickers&size=42" target="_blank">Ссылка с URL параметрами</a></li></li>
+		<li><a href="">
+			<ul>
+			<li><a href="https://www.adidas.ru/muzhchiny-obuv" title="Обувь" target="_blank">Обувь</a></li>
+			<li><a href="https://www.adidas.ru/muzhchiny-odezhda" title="Одежда" target="_blank">Одежда</a></li>
+			<li><a href="https://www.adidas.ru/muzhchiny-aksessuary" title="Аксессуары" target="_blank">Аксессуары</a></li>
+			</ul>
+		</li>
+		<br>
+		<li><a>Ссылка без href</a></li>
+		<li><a href="">ССылка с пустым href</a></li>
+		<li><a href="http://example.ru" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a></li>
+		<li><noindex--><a href="http://example.ru"> Ссылка, запрещенная для индексации поисковиками </a></noindex--></li>
+		<li><a id="metka" href="https://kubsau.ru/" информация>Ссылка</a></li>
+		<li><a href="https://yandex.ru/images/search?rpt=simage&noreask=1&source=qa&text=%D0%98%D0%BE%D1%81%D0%B8%D1%84%20%D0%91%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9&stype=image&lr=35&pos=0&img_url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FE2JwJ7OVcAE8waO.jpg"><img src = "https://yandex.ru/images/search?rpt=simage&noreask=1&source=qa&text=%D0%98%D0%BE%D1%81%D0%B8%D1%84%20%D0%91%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9&stype=image&lr=35&pos=0&img_url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FE2JwJ7OVcAE8waO.jpg" alt="Иосиф Бродский" style="width: 300px;"></a></p></li>
+
+		<li><a href="https://yandex.ru/images/search?text=%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BC%D0%B8%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9&from=tabbar&pos=3&img_url=https%3A%2F%2Fsun9-62.userapi.com%2Fimpg%2FnRei3JHXUbs-TW28UNaz_AEsE1_JIJWtzTZE0g%2FD5xA_dAEYf4.jpg%3Fsize%3D483x604%26quality%3D96%26sign%3D4227ab24112b64b39f639f159b56559f%26type%3Dalbum&rpt=simage"><img src = "image.jpeg" alt="Евгений Мильковсктй" style="width: 300px;" usemap = "#map">
+		<map name = "map">
+		<area shape = "rect" href = "Ссылка" coords = "20 20 120 120"/>
+		<area shape = "circle" href = "ссылка" coords = "180 70 40"/>
+		</map></a></li>
+		<li><a href="С.документ1.html">Ссылка1</a></li>
+		<li><a href="about/С.документ2.html">Ссылка2</a></li>
+		<li><a href="../С.документ3.html">Ссылка3</a></li>
+		<li><a href="../../С.документ4.html">Ссылка4</a></li>
+		<li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+		<li><a href="/example.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+	</ol>
+	</body>
+
+  <body>
+
+    <h1>Форма</h1>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        Введите имя:<br />
+        <input name="name-1"
+          value="Name" />
+      </label><br />
+
+      <label>
+      <label>
+       Введите email:<br />
+        <input name="email"
+          value="example@mail.com"
+          type="email" />
+      </label><br />
+
+      <label>
+        Введите дату рождения:<br />
+        <input name="date"
+          value="12.12.2002"
+          type="date" />
+      </label><br />
+
+	Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Зн1" />
+        Женский </label>
+      <label><input type="radio"
+        name="radio-group-1" value="Зн2" />
+        Мужской </label><br />
+	
+	Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio2" value="Значение1" />
+        7  Конечностей </label>
+      <label><input type="radio"
+        name="radio2" value="Значение2" />
+        4  Конечности </label><br />
+      <label><input type = "radio"
+	name="radio2" value="Значение3" />
+	1  конечность </label><br />
+
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-skills-4[]"
+          multiple="multiple">
+          <option value="Значение1" selected="selected">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитация</option>
+        </select>
+      </label><br />
+
+	<label>
+       биография:<br>
+        <textarea name="field-biography-2">Пару слов о себе</textarea>
+      </label>
+
+      С контрактом ознакомлен:<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        Ознакомлен </label><br />
+
+      Отправить форму:
+      <input type="submit" value="Отправить" />
+    </form>
+
+  </body>
+
+</html>
+
